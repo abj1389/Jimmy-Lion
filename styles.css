@@ -102,3 +102,121 @@ header{
     font-weight: bolder;
     margin: 0;
 }
+
+/* Custom Packs */
+
+.custom-packs{
+    position: relative;
+}
+
+.custom-packs img{
+    width: 100%;
+}
+
+.custom-packs-description{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.custom-packs p{
+    margin: 10px 0px;
+}
+
+.custom-packs-smaller{
+    font-size: 12px;
+}
+
+.custom-packs-bigger{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.custom-packs button{
+    text-transform: uppercase;
+    color: white;
+    background-color: #373737;
+    border: none;
+    padding: 10px;
+}
+
+/* News */
+
+.news-text{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.news-text-bigger{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.news-text-smaller{
+    font-size: 12px;
+}
+
+.news-banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-banners div{
+    margin: 10px;
+}
+
+.news-img-main{
+    width: 450px;
+}
+
+.news-img-second{
+    width: 225px;
+    margin: 5px;
+}
+
+#news-second-div{
+    max-width: 500px;
+}
+
+/* Suscription */
+
+.suscription{
+    text-align: center;
+}
+
+.suscription-bigger{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.suscription-smaller{
+    font-size: 12px;
+}
+
+.suscription input{
+    width: 300px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+/* Footer */
+
+footer{
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: #373737;
+    margin-left: 10px;
+}
