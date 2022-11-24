@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+    color: #373737;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu{
+    display: block;
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.menu-list-item{
+    display: inline-block;
+}
+
+.menu-list-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #373737;
+    margin-right: 30px;
+}
+
+
+.logo-container img{
+    width: 120px;
+}
+
+/* main banner */
+
+.main-banner img{
+    width: 100%;
+}
+
+/* features */
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: baseline;
+}
+
+.feature div p{
+    margin: 5px 10px;
+    font-size: 14px;
+}
+
+.feature-bolder{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* collections */
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 450px;
+}
+
+.collection-description{
+    position:absolute;
+    top:115px;
+    left: 30px;
+}
+
+.collection-description-buy{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.collection-description-text{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+}
